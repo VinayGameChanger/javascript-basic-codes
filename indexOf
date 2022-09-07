@@ -1,0 +1,5 @@
+function myFunction(a, b) {
+    console.log(a.indexOf(b) );
+  return a.indexOf(b) === -1 ? a + b : b + a
+}
+console.log(myFunction(' think, therefore I am', "I am"));
